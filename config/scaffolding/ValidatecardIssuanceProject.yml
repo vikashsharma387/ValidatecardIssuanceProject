@@ -8,7 +8,35 @@ packages:
   gitUsername: vikashsharma387
   gitBranch: main
 - name: customCobrandingService
+  version: "1.0"
   gitServerName: vikasgithub
   gitUrl: https://github.com/vikashsharma387
   gitUsername: vikashsharma387
   gitBranch: main
+services:
+- serviceName: project.validatecardissuance.integrations:TestCobrandingServiceDAF
+  packages:
+  - name: ValidatecardIssuanceProject
+    version: "1.0"
+  - name: customCobrandingService
+    version: "1.0"
+- serviceName: customCobrandingService:BrandingPartner
+  packages:
+  - name: customCobrandingService
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2010
+- serviceName: wm.server.admin:getServerHost
+  packages:
+  - name: WmRoot
+    version: 11.1.0.0.2010
+- serviceName: customCobrandingService:getBrandingPartnerForCardIssuance
+  packages:
+  - name: customCobrandingService
+    version: "1.0"
+- serviceName: pub.flow:getLastError
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2010
