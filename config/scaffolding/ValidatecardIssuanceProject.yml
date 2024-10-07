@@ -13,6 +13,11 @@ packages:
   gitUrl: https://github.com/vikashsharma387
   gitUsername: vikashsharma387
   gitBranch: main
+- name: cardIssuance
+  gitServerName: vikasgithub
+  gitUrl: https://github.com/vikashsharma387
+  gitUsername: vikashsharma387
+  gitBranch: main
 services:
 - serviceName: project.validatecardissuance.integrations:TestCobrandingServiceDAF
   packages:
