@@ -14,6 +14,7 @@ packages:
   gitUsername: vikashsharma387
   gitBranch: main
 - name: SalesforceConn
+  version: "1.0"
   gitServerName: vikasgithub
   gitUrl: https://github.com/vikashsharma387
   gitUsername: vikashsharma387
@@ -45,3 +46,13 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.1020
+- serviceName: project.validatecardissuance.integrations:TestDAf
+  packages:
+  - name: ValidatecardIssuanceProject
+    version: "1.0"
+  - name: customCobrandingService
+    version: "1.0"
+  - name: SalesforceConn
+    version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 10.7.0.0.164
