@@ -9,17 +9,18 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="customCobrandingService">1.0</value>
+    <value name="SalesforceConn">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">3</value>
+  <value name="build">7</value>
   <null name="description"/>
   <value name="created_date">11-10-2024 07:18:44 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-10-11T07:20:09.088561139Z</value>
+  <value name="lastUpdated">2024-10-11T07:36:45.253703991Z</value>
   <value name="wmProjectId">fl80ffaed07cc21cb369cb6b</value>
   <value name="creator">sprouser sprouser</value>
 </Values>
